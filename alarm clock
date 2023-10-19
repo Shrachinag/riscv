@@ -8,8 +8,7 @@ and the GTKWave toolkit.
 ## Introduction
 This design aims to apply the Verilog language into the
 development of a simple mechanism of a digital alarm clock. The block diagram for the proposed design is shown below:
-
-
+(https://github.com/Shrachinag/riscv/assets/119600435/c470e1de-cccc-4cc4-8803-68105b7c1ff9)
 This implementation of a digital clock includes a multiple
 features enabling resetting the clock, setting up an alarm for
 a specific time and also stopping the alarm when it goes off.
@@ -26,7 +25,7 @@ digits. Alarm can also be set upto the accuracy of minutes.
 ## Instructions to Run
 ### IcarusVerilog and GTKWave
 #### For Ubuntu
-Open your terminal and type the following to install IcarusVerilog and GTKWave:
+in terminal and type the following to install IcarusVerilog and GTKWave:
 ```
 $   sudo apt-get update
 $   sudo apt-get install iverilog gtkwave
@@ -50,8 +49,7 @@ The testing proceeds as follows – Initially, the time is set to
 The alarm goes off at the set time of 10 : 20 as seen from the
 figure:
 
-![Alt text](graph.png?raw=true "Graph")
-
+(https://github.com/Shrachinag/riscv/assets/119600435/169057e5-1d8f-4638-84a3-2a9951b7122b)
 The alarm is then turned off after 1 second and the
 clock-time is reset to 04 : 45. Next, another alarm is set to
 04 : 55, which functions as expected.
@@ -62,8 +60,7 @@ Synthesis is a process by which an abstract specification of desired circuit beh
 Yosys is an open-source framework for Verilog synthesis. It currently has extensive Verilog-2005 support and provides a basic set of synthesis algorithms for various application domains. Yosys can be adapted to perform any synthesis job by combining the existing passes (algorithms) using synthesis scripts and adding additional passes as needed by extending the Yosys C++ code base.
 
 To install Yosys, follow the instructions given in the refered GitHub repository:
-https://github.com/YosysHQ/yosys
-
+(https://github.com/Shrachinag/riscv/assets/119600435/169057e5-1d8f-4638-84a3-2a9951b7122b)
 ### Instructions for Synthesis
 Create a Yosys script yosys_run.sh in the cloned `/iiitb_aclock` directory and type in the following code into it:
 ```
